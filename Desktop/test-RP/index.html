@@ -6,10 +6,23 @@
 	<title></title>
 	<link rel="stylesheet" href="">
 </head>
-<<style type="text/css" media="screen">
+<style type="text/css" media="screen">
 	img {
 		width: 100%;
 		height: auto;
+	}
+	body {
+		margin: 0;
+	}
+	@media screen and (max-width: 768px) {
+		.hero {
+			display: none;
+		}
+	}
+	@media screen and (min-width: 769px) {
+		.responsive {
+			display: none;
+		}
 	}
 </style>
 
@@ -17,5 +30,6 @@
 	<img class="hero" src="header.jpg">
 	<img class="hero" src="hero.jpg">
 	<img class="hero" src="acustica.jpg">
+	<img class="responsive" src="invie-responsive.png">
 </body>
 </html>
