@@ -12,7 +12,18 @@
 		height: auto;
 	}
 	body {
-		margin: initial;
+
+		margin: 0;
+	}
+	@media screen and (max-width: 768px) {
+		.hero {
+			display: none;
+		}
+	}
+	@media screen and (min-width: 769px) {
+		.responsive {
+			display: none;
+		}
 	}
 </style>
 
@@ -20,5 +31,6 @@
 	<img class="hero" src="header.jpg">
 	<img class="hero" src="hero.jpg">
 	<img class="hero" src="acustica.jpg">
+	<img class="responsive" src="invie-responsive.png">
 </body>
 </html>
